@@ -75,7 +75,7 @@ public class PatientController {
 	}
 
 	// Delete a patient by ID
-	@DeleteMapping("/patients/{id}")
+	@DeleteMapping("/{id}")
 	public ResponseEntity<Patients> deletePatient(@PathVariable int id) throws InvalidPatientIdException {
 		Patients patient = patientService.deletePatient(id);
 		return new ResponseEntity<>(patient, HttpStatus.ACCEPTED);
