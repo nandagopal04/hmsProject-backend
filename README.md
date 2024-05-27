@@ -18,12 +18,7 @@ This is a comprehensive web-based application designed to streamline the managem
 ## Installation and Setup
 
 ### Prerequisites
-- Java 11 or higher
+- Java 8 or higher
 - Maven
 - MySQL
 
-### Steps
-1. **Clone the repository**
-   ```sh
-   git clone https://github.com/yourusername/doctor-patient-management-system.git
-   cd hospital-management-system
