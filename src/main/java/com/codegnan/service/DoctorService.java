@@ -39,8 +39,8 @@ public class DoctorService {
 		return optDoctor.get();
 	}
 	public Doctors editDoctor(Doctors doctor) throws InvalidDoctorIdException {
-		Doctors foundDoctor = findDoctorById(doctor.getId());
-		return doctorRepo.save(foundDoctor);
+		findDoctorById(doctor.getId());
+		return doctorRepo.save(doctor);
 	}
 	public Doctors deleteDoctor(int id) throws InvalidDoctorIdException{
 		Doctors doctor = findDoctorById(id);

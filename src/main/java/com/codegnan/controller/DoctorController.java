@@ -21,9 +21,11 @@ import com.codegnan.exception.InvalidDoctorIdException;
 import com.codegnan.service.DoctorService;
 import com.codegnan.service.PatientService;
 
+
+
 @RestController
 @RequestMapping("/doctor")
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "*")
 public class DoctorController {
 	DoctorService doctorService;
 	PatientService patientService;
