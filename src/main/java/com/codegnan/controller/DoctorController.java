@@ -71,7 +71,7 @@ public class DoctorController {
 	@PostMapping
 	public ResponseEntity<Doctors> saveDoctor(@RequestBody Doctors doctor) {
 		Doctors savedDoctor = doctorService.saveDoctor(doctor);
-		ResponseEntity<Doctors> responseEntity = new ResponseEntity<Doctors>(savedDoctor, HttpStatus.ACCEPTED);
+		ResponseEntity<Doctors> responseEntity = new ResponseEntity<Doctors>(savedDoctor, HttpStatus.CREATED);
 		return responseEntity;
 	}
 
