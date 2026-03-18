@@ -1,4 +1,4 @@
-# Doctor-Patient Management System
+# HospitalityHub: Crafting Excellence in Hospital Management
 
 ## Overview
 This is a comprehensive web-based application designed to streamline the management of medical records and interactions between doctors and patients. The system supports CRUD (Create, Read, Update, Delete) operations for both doctor and patient data.
